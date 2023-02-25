@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+.header {
+
+    /* Dashboard */
+    width: 100%;
+
+
+    background-color: black;
+    position: static;
+    padding: 20px;
+
+
+    /* identical to box height */
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    /* line-height: 39px; */
+
+
+    color: #FFFFFF;
+}
+
+#btn {
+    /* Add A New Row */
+
+
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 20px;
+    top: 116px;
+    cursor: pointer;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    background-color: black;
+
+    color: #FFFFFF;
+}
+
+#myTable {
+    /* Rectangle 3 */
+
+
+    position: absolute;
+    width: 1200px;
+    height: 65px;
+    left: 20px;
+    top: 180px;
+    font-size: large;
+
+
+    border: 1px solid #000000;
+  
+    text-align: center;
+
+}
+
+td {
+    padding: 10px 0px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+body {
+
+    position: relative;
+    width: 97%;
+    height: 90%;
+
+    background: #FFFFFF;
+}
